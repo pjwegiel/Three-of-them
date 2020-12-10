@@ -26,8 +26,8 @@ export default () => (
     <div
       style={{
         position: "absolute",
-        width: "400px",
-        height: "65px",
+        width: "16em",
+        height: "3em",
         border: "4px solid #FFFFFF",
         boxSizing: "border-box",
         borderRadius: "57.5px",
@@ -39,7 +39,8 @@ export default () => (
         justifyContent: "center",
         alignContent: "center",
         flexDirection: "column",
-        fontSize: "1.8em",
+        fontSize: "1.6em",
+        fontWeight: "600",
       }}
     >
       LET’S WORK TOGETHER!

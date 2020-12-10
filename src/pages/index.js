@@ -5,7 +5,9 @@ import Background1 from "../assets/background1.png"
 
 import Navbar from "./Navbar"
 import FirstPage from "./FirstPage"
+// import SecondPage from "./SecondPage"
 import Socials from "./Socials"
+import SecondPage from "./SecondPage"
 
 export default () => (
   <React.Fragment>
@@ -21,6 +23,7 @@ export default () => (
       <Navbar />
       <FirstPage />
       <Socials />
+      <SecondPage />
     </div>
   </React.Fragment>
 )
